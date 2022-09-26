@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 38%, 92%);
+    min-height: 100vh;
+}
+.main-content{
+    border-radius: 10px;
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    gap: 35px ;
+    padding-right: 40px;
+    
+}
+.image-product img{
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    width: 350px;
+    height: 500px;
+}
+.main-content .content{
+    display: flex;
+    flex-direction: column;
+}
+
+.title{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    letter-spacing: 0.4rem;
+    font-size: 15px;
+    font-weight: 100;
+    color: hsl(228, 12%, 48%);
+}
+
+.subtitle{
+    font-family: 'Fraunces', Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    line-height: 2.1rem;
+    padding-bottom: 30px;
+    
+}
+
+.description{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    color: hsl(228, 12%, 48%);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+    padding-bottom: 30px;
+
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    padding-bottom: 30px;
+}
+.price .current-price{
+    font-family: 'Fraunces', Arial, Helvetica, sans-serif;
+    color: hsl(158, 36%, 37%);
+    font-size: 40px;
+    font-weight: bolder;
+}
+.price .previous-price{
+    color: hsl(228, 12%, 48%);
+    text-decoration: line-through;
+}
+
+.cart-button{
+    color:white;
+    display: flex;
+    gap: 17px;
+    justify-content: center;
+    align-items: center;
+    height: 57px;
+    background-color: hsl(158, 56%, 24%);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 2ms;
+}
+.cart-button .text-cart{
+    font-family: 'Montserrat', Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 500;
+}
+.cart-button .icon-cart{
+    width: 20px;
+
+}
+.cart-button:hover{
+    
+    background-color: rgb(101, 161, 101);
+} /*efeito*/
+
+
