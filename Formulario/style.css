@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgba(224, 240, 222, 0.589);
+    min-height: 100vh;
+}
+
+.title{
+    font-family: 'Combo',cursive;
+    padding-top: 20px;
+    text-align: center;
+}
+main{
+    
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content{
+   
+    background-color: rgb(225, 233, 233);
+    width: 500px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 25px;
+}
+.information{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    flex-grow: 30;
+    align-items: center;
+    justify-content: center;
+}
+.information .nome-campo{
+    font-family:'Roboto',sans-serif ;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    gap: 12px;
+}
+.information .conteudo-campo{
+
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+.information input{
+    width: 250px;
+    border: solid 1px;
+    border-radius: 5px;
+}
+.adress{
+    width: 100%;
+    display: flex;
+    gap: 50px;
+    flex-grow: 30;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+}
+.adress .nome-campo{
+    font-family:'Roboto',sans-serif ;
+    display: flex;
+    flex-direction: column;
+    justify-items: flex-start;
+    gap: 12px;
+}
+
+.adress .conteudo-campo{
+    display: flex;
+    flex-direction: column;
+    gap: 11px;
+}
+.adress input{
+    width: 250px;
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+.adress #number{
+    width: 50px;
+}
+.adress #state{
+    border: solid 1px;
+    border-radius: 5px;
+}
+
+
+
+
+.sub-title{
+    font-size: 1.80rem;
+    font-family:'Combo',cursive;
+    padding-top:  30px;
+}
+
+.button{
+    display: flex;
+    flex-grow: 20;
+}
+.button button{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(197, 241, 155);
+    cursor: pointer;
+    border-radius: 15px;
+    border: 1px solid;
+
+}
+
+.button button:hover{
+    background-color: cornflowerblue;
+}
+
+
+@media(min-width: 300px) and (max-width: 510px){
+   .main-content{
+    width: 330px;
+   }
+
+   .adress{
+
+    gap: 3px;
+
+
+   }
+   
+   
+   .information{
+   gap: 3px;
+   }
+   
+   
+}
+
+
+    
